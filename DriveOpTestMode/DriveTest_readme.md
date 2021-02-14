@@ -22,14 +22,14 @@ the bot with software.
 In order for this OpMode to work you need to use the FTC Driver Control app and Configure your
 robot so the various motors, servos, etc have some standard names this Op Mode expects:
 
-motor_left
-motor_right
-motor_one
-motor_two
-servo_one
-servo_two
-servo_three
-servo_four
+* motor_left
+* motor_right
+* motor_one
+* motor_two
+* servo_one
+* servo_two
+* servo_three
+* servo_four
 
 Note that only regular Servo not CRServo ("continuous rotation" servos... have "CR" on the end of
 their model number) are supported. If you want to use those, you will need to modify the code. And
@@ -42,20 +42,20 @@ mounted them in opposite directions on your bot to drive left and right side whe
 have manual controls to move in each direction but the drive wheels are bound to the joysticks to
 give you a drive control like you're used to in most video games
 
-left stick:
-right stick:
-left trigger:
-left shoulder:
-right trigger:
-right shoulder:
-x:
-b:
-y:
-a:
-dpad up:
-dpad down:
-dpad left:
-dpad right:
+* left stick:
+* right stick:
+* left trigger:
+* left shoulder:
+* right trigger:
+* right shoulder:
+* x:
+* b:
+* y:
+* a:
+* dpad up:
+* dpad down:
+* dpad left:
+* dpad right:
 
 The op mode is pretty robust. If you don't define one of the expected names, it just ignores it and
 the buttons won't do anything. If it fails for some reason it tries to ignore it and log it safely
@@ -65,5 +65,5 @@ information it reports shows up in the robot log. You can access this from the d
 
 TBDs
 ------
-sensor support
-CRServo support
+* sensor support
+* CRServo support
